@@ -194,5 +194,29 @@ body {
 }
 
 #header {
+    padding-top: 100px;
+}
+
+.bg-image {
+    background-image: url('https://alchetron.com/cdn/jane-teller-a5642426-2130-48fc-80a8-5947174c5d3-resize-750.jpeg');
+    background-size: cover;
+    background-position: center;
+    max-width: 600px;
+    max-height: 950px;
+}
+
+.login-heading {
     padding-top: 50px;
+    padding-right: 30px;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }

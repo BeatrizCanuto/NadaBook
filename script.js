@@ -77,7 +77,7 @@ function validarMensagem() {
 }
 
 function enviar() {
-    if (nomeOk == true && socialOk == true && celularOk == true && emailOk == true && mensagemOk == true) {
+    if (nomeOk == true && emailOk == true && mensagemOk == true) {
         alert('Preenchido corretamente, enviado')
     } else {
         alert('Necessário preencher todos os campos corretamente')
