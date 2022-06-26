@@ -220,3 +220,11 @@ body {
     left: 0;
     min-height: 300px;
 }
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100%;
+}
